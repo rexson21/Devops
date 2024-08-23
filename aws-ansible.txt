@@ -26,4 +26,9 @@ ansible-playbook command used for playbook yml files
 ansible-playbook -i inventory <playbook.yml>
 ansible-playbook -vvv -i inventory <playbook.yml> (-vvv for verbose , verbose means debugging)
 ansible-galaxy role <filename> (role will create some files to give structure )
-
+git stash
+git remote -v
+git pull --rebase origin/main
+git add <filename>
+git commit -m ""
+git push origin/name
